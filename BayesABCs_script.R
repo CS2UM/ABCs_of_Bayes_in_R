@@ -735,8 +735,9 @@
                                parameters.to.save = params, n.chains = 2, n.iter = 100000, 
                                n.burnin = 10000, model.file = model.hier)
         
+    # Useful to save the posterior object (especially when it takes time to run)
     # save(hier.model.fit,file="~/Desktop/hier.model.fit.Rdata") # save output object
-    load("~/Desktop/hier.model.fit.Rdata")
+    # load("~/Desktop/hier.model.fit.Rdata")
     
     # Assess convergence
     mcmcplot(hier.model.fit) # Initial results look promising (convergence)
