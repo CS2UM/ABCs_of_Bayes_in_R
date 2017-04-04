@@ -509,7 +509,7 @@
               # moderate, and 2 if liberal.
           # - schooling: years of full-time education completed.
     
-    proc_df <- read.csv("/Users/edunford/Desktop/bayes_ABCs/examples/hh_2006.csv")
+    proc_df <- read.csv("hh_2006.csv")
     
     
     # Examine Data
@@ -655,7 +655,7 @@
     
         
         # Load the data
-        electDF <- read.csv(file="/Users/edunford/Desktop/bayes_ABCs/examples/elec_viol.csv",stringsAsFactors = F)
+        electDF <- read.csv(file="elec_viol.csv",stringsAsFactors = F)
         
         head(electDF)
         
